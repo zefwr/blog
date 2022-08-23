@@ -17,10 +17,18 @@
   * {
   box-sizing: border-box;
   }
-        
+
   body {
   background-color: #ffffff;
   } 
+
+  #footer {
+  border-top: 1px solid #4d0099;
+  color: #555;
+  text-align: center;
+  padding-top: 10px;
+  height: 70px;
+  }
 
   #navlist {
   list-style-type: none;
@@ -28,7 +36,7 @@
   padding: 0;
   overflow: hidden;
   }
-      
+
   #main {
   padding-top: 80px;
   padding-bottom: 150px;
@@ -38,10 +46,18 @@
   li {
   float: left;
   }
+  
+  li.heading_small {
+  padding-top: 7px;
+  }
+
+  li.heading_big {
+  
+  }
 
   li a {
   display: block;
-  color: black;
+  color: #555;
   text-align: center;
   font-family: arial;
   padding: 16px;
@@ -59,38 +75,58 @@
   margin-top: 10%;
   }
 
-  .vl {
-  border-left: 1px solid #4d0099;
-  position: absolute;
-  height: 500px;
-  left: 50%;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  }
-        
   .row:after {
   content: "";
   display: table;
   clear: both;
   }
-        
+
+  .column1 a {
+  color: #4d0099;
+  text-decoration: none;
+  }
+  
+  .column2 h2 a {
+  color: #555;
+  text-decoration: none;
+  }
+
   .column1 {
+  font-family: arial;
+  overflow: hidden;
   float: left;
   text-align: right;
   color: #4d0099;
-  width: 42%;
+  width: 37%;
+  height: 300px;
   padding-right: 3%;
   padding-top: 5px;
   }
-        
+
+  .columnDate {
+  font-family: arial;
+  overflow: hidden;
+  float: left;
+  text-align: center;
+  color: #4d0099;
+  border-left: 1px solid #4d0099;
+  width: 10%;
+  height: 300px;
+  padding-right: 3%;
+  padding-left: 1%;
+  padding-top: 15px;
+  }
+  
+
   .column2 {
+  font-family: arial;
+  overflow: hidden;
   float: left;
   text-align: left;
-  border-left: 1px solid #4d0099;
-  color: #4d0099;
-  width: 58%;
+  color: #555;
+  width: 53%;
   height: 300px;
-  padding-left: 10%;
+  padding-left: 5%;
   padding-top: 5px;
   }
 
@@ -107,10 +143,10 @@
  <body>
   <header>
    <ul id="navlist"style="list-style-type:none">
-    <li><a href="https://www.adamjdenton.com" style="font-size:150%; color:#4d0099">Adam J Denton</a></li>
-    <li><a href="url_placeholder">Home</a></li>
-    <li><a href="url_placeholder">Essays</a></li>
-    <li><a href="url_placeholder">About &#38; Contact</a></li>
+    <li class="heading_big"><a href="https://www.adamjdenton.com" style="font-size:150%; color:#4d0099">Adam J Denton</a></li>
+    <li class="heading_small"><a href="url_placeholder">Home</a></li>
+    <li class="heading_small"><a href="url_placeholder">Essays</a></li>
+    <li class="heading_small"><a href="url_placeholder">About &#38; Contact</a></li>
    </ul>
   </header>
   <div id=main>
@@ -123,10 +159,13 @@ concerned with tomorrow</p>
         
   <div class="row">
    <div class="column1">
-    <h2>Lone Essays</h2>
+    <h2><a href="url_placeholder">Lone Essays</a></h2>
+   </div>
+   <div class="columnDate">
+    <p>August 4th</p>
    </div>
    <div class="column2">
-    <h2>Some Essay</h2>
+    <h2><a href="url_placeholder">Some Essay</a></h2>
     <p>Some text from some essay..</p>
    </div>
   </div>
@@ -135,16 +174,22 @@ concerned with tomorrow</p>
         
   <div class="row">
    <div class="column1">
-    <h2>Conversations</h2>
+    <h2><a href="url_placeholder">Conversations</a></h2>
+   </div>
+   <div class="columnDate">
+    <p>August 4th</p>
    </div>
    <div class="column2">
-    <h2>Some Essay</h2>
+    <h2><a href="url_placeholder">Some Essay</a></h2>
     <p>Some text from some essay..</p>
    </div>
   </div>
         
   <div class="spacer"></div>
 
+  <div id=footer>
+   <h4>@ Adam Denton</h4>
+  </div>
 
  </body>
 </html>
