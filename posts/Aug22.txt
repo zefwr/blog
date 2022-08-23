@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en_US">
+<head>
+
+ <base href="https://www.adamjdenton.com/Aug22" target="_blank">
+ <meta name="viewport" content="width=device-width, initiail-scale=1.0">
+ <meta charset="UTF-8">
+ <meta name="description" content="Assorted topical essays">
+ <meta name="author" content="Adam J Denton">
+ <meta name="keywords" content="blog, Politics, Philosophy, Economics, Medicine, Science, Religion, Christianity, Liberty, Libertarianism, Anarchism">
+ 
+ <style>
+  
+  * {
+  box-sizing: border-box;
+  }
+
+  body {
+  background-color: #ffffff;
+  } 
+
+  #footer {
+  border-top: 1px solid #4d0099;
+  color: #555;
+  text-align: center;
+  padding-top: 10px;
+  height: 70px;
+  }
+
+  #navlist {
+  list-style-type: none;
+  padding-left: 35%;
+  overflow: hidden;
+  }
+
+  #main {
+  padding-top: 80px;
+  padding-bottom: 150px;
+  border-bottom: 1px solid #4d0099;
+  }
+
+  li {
+  float: left;
+  }
+  
+  li.heading_small {
+  padding-top: 7px;
+  }
+
+  li.heading_big {
+  
+  }
+
+  li a {
+  display: block;
+  color: #555;
+  text-align: center;
+  font-family: arial;
+  padding: 16px;
+  text-decoration: none;
+  }
+
+  header {
+  border-bottom: 1px solid #4d0099;
+  }      
+
+  #prime {
+  color: #4d0099;
+  font-size: 330%;
+  margin-left: 25%;
+  margin-top: 10%;
+  }
+
+  .essay_body {
+  max-width: 100%;
+  font-family: arial;
+  color: #555;
+  padding-left: 25%;
+  padding-right: 25%;
+  }
+
+  .spacer {
+  display: hidden;
+  height: 150px;
+  width: 100%
+  }
+
+ </style>
+
+</head>
+<body>
+  <header>
+   <ul id="navlist"style="list-style-type:none">
+    <li class="heading_big"><a href="https://www.adamjdenton.com" style="font-size:150%; color:#4d0099">Adam J Denton</a></li>
+    <li class="heading_small"><a href="url_placeholder">Home</a></li>
+    <li class="heading_small"><a href="url_placeholder">Essays</a></li>
+    <li class="heading_small"><a href="url_placeholder">About &#38; Contact</a></li>
+   </ul>
+  </header>
+
+  <div id=main>
+   <h1 id="prime">Treating Chiriaco</h1>
+   <p style="color:#4d0099; font-size:120%; margin-left: 25%; margin-top: 5%">My time spent caring for the Peruvian people</p>
+  </div>
+
+  <div class="essay_body">
+   <p>As my American friends tried to sleep on the floor of the tiny church, I slipped my guitar from the room in search of a quiet place to play. Our temporary clinic in the Peruvian mountain
+village of Chiriaco had run late into the evening. Dragging a stool out onto a dewy patch of grass
+just past the front gate, I struck up a quiet song. A few minutes later, several of the church
+members who had been helping us with the clinic came out to sit with me. I greeted them in
+broken Spanish, they in broken English, and we shared the familiar strain of communication
+across language and culture. The pastor Mario held a charango, the ten-stringed traditional
+Peruvian instrument, and asked if they could join me.</p>
+
+   <p>After agreeing on an old gospel song we all knew, Mario began strumming chords while I
+sang the melody and tried to play along. At first the going was difficult as Mario’s playing was
+peculiar to me. Adding emphasis to unorthodox beats, using strumming patterns and chord
+voicings I didn't know, we struggled to keep from clashing. As one song flowed into the next,
+however, unfamiliarity and dissonance was slowly replaced by a collaborative give and take. We
+began to wordlessly trade parts, moving from occupying the melody to weaving graceful
+harmony as more people joined in with each song.</p>
+
+   <p>Music is wonderful like that. It can be demonstrably alien to you, yet still beautiful. It can take elements from totally disparate traditions and make something unique. Whenever I’m the
+outsider, I strive to see people and cultures in this way. There is always unexpected beauty to
+find, and there is always a way to come together to form something rich and unique that
+wouldn’t have happened otherwise. As a student and a physician, I will look for ways to form
+connections with peoples from different backgrounds and cultures in order to draw from the
+knowledge and experiences that I could never divine on my own.</p>
+
+<p>As my American friends tried to sleep on the floor of the tiny church, I slipped my guitar from the room in search of a quiet place to play. Our temporary clinic in the Peruvian mountain
+village of Chiriaco had run late into the evening. Dragging a stool out onto a dewy patch of grass
+just past the front gate, I struck up a quiet song. A few minutes later, several of the church
+members who had been helping us with the clinic came out to sit with me. I greeted them in
+broken Spanish, they in broken English, and we shared the familiar strain of communication
+across language and culture. The pastor Mario held a charango, the ten-stringed traditional
+Peruvian instrument, and asked if they could join me.</p>
+
+   <p>After agreeing on an old gospel song we all knew, Mario began strumming chords while I
+sang the melody and tried to play along. At first the going was difficult as Mario’s playing was
+peculiar to me. Adding emphasis to unorthodox beats, using strumming patterns and chord
+voicings I didn't know, we struggled to keep from clashing. As one song flowed into the next,
+however, unfamiliarity and dissonance was slowly replaced by a collaborative give and take. We
+began to wordlessly trade parts, moving from occupying the melody to weaving graceful
+harmony as more people joined in with each song.</p>
+
+   <p>Music is wonderful like that. It can be demonstrably alien to you, yet still beautiful. It can take elements from totally disparate traditions and make something unique. Whenever I’m the
+outsider, I strive to see people and cultures in this way. There is always unexpected beauty to
+find, and there is always a way to come together to form something rich and unique that
+wouldn’t have happened otherwise. As a student and a physician, I will look for ways to form
+connections with peoples from different backgrounds and cultures in order to draw from the
+knowledge and experiences that I could never divine on my own.</p>
+
+<p>As my American friends tried to sleep on the floor of the tiny church, I slipped my guitar from the room in search of a quiet place to play. Our temporary clinic in the Peruvian mountain
+village of Chiriaco had run late into the evening. Dragging a stool out onto a dewy patch of grass
+just past the front gate, I struck up a quiet song. A few minutes later, several of the church
+members who had been helping us with the clinic came out to sit with me. I greeted them in
+broken Spanish, they in broken English, and we shared the familiar strain of communication
+across language and culture. The pastor Mario held a charango, the ten-stringed traditional
+Peruvian instrument, and asked if they could join me.</p>
+
+   <p>After agreeing on an old gospel song we all knew, Mario began strumming chords while I
+sang the melody and tried to play along. At first the going was difficult as Mario’s playing was
+peculiar to me. Adding emphasis to unorthodox beats, using strumming patterns and chord
+voicings I didn't know, we struggled to keep from clashing. As one song flowed into the next,
+however, unfamiliarity and dissonance was slowly replaced by a collaborative give and take. We
+began to wordlessly trade parts, moving from occupying the melody to weaving graceful
+harmony as more people joined in with each song.</p>
+
+   <p>Music is wonderful like that. It can be demonstrably alien to you, yet still beautiful. It can take elements from totally disparate traditions and make something unique. Whenever I’m the
+outsider, I strive to see people and cultures in this way. There is always unexpected beauty to
+find, and there is always a way to come together to form something rich and unique that
+wouldn’t have happened otherwise. As a student and a physician, I will look for ways to form
+connections with peoples from different backgrounds and cultures in order to draw from the
+knowledge and experiences that I could never divine on my own.</p>
+  </div>
+  
+  <div id=footer>
+   <h4>@ Adam Denton</h4>
+  </div>
+  
+ </body>
+</html>
