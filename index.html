@@ -1,9 +1,10 @@
+
 <!doctype html>
 <html lang="en-US">
 <head>
 
  <base href="https://www.adamjdenton.com/" target="_blank">
- <meta name="viewport" content="width=device-width, initiail-scale=1.0">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <meta charset="UTF-8">
  <meta name="description" content="Assorted topical essays">
  <meta name="author" content="Adam J Denton">
@@ -30,13 +31,6 @@
   height: 70px;
   }
 
-  #navlist {
-  list-style-type: none;
-  margin-left: 35%;
-  padding: 0;
-  overflow: hidden;
-  }
-
   #title_page_head {
   height: 500px;
   position: relative;
@@ -61,30 +55,42 @@
    font-size:150%; 
   }
 
+  .outermenu {
+  height: 70px;
+  border-bottom: 1px solid #4d0099;
+  }
+
+  .navcontainer_table {
+  display: table;
+  margin: 0 auto;
+  }
+
+  ul.#navlist {
+  list-style-type: none;
+  text-align: center;
+  overflow: hidden;
+  }
+
   li {
-  float: left;
+  display: inline-block;
   }
   
   li.heading_small {
   padding-top: 7px;
   }
 
-  li.heading_big {
-  
+  a.heading_big {
+  font-size:135%; 
+  color:#4d0099;
   }
 
   li a {
-  display: block;
   color: #555;
   text-align: center;
   font-family: arial;
   padding: 16px;
   text-decoration: none;
-  }
-
-  header {
-  border-bottom: 1px solid #4d0099;
-  }      
+  }    
 
   .row:after {
   content: "";
@@ -134,7 +140,7 @@
   float: left;
   text-align: left;
   color: #555;
-  max-width: 300px;
+  max-width: 500px;
   width: 53%;
   height: 300px;
   padding-left: 5%;
@@ -142,7 +148,7 @@
   }
 
   p.essay_subhead {
-  max-width: 250px;
+  max-width: 350px;
   }
 
   .spacer {
@@ -156,14 +162,16 @@
 </head>
 
  <body>
-  <header>
-   <ul id="navlist"style="list-style-type:none">
-    <li class="heading_big"><a href="https://www.adamjdenton.com" style="font-size:150%; color:#4d0099">Adam J Denton</a></li>
-    <li class="heading_small"><a href="url_placeholder">Home</a></li>
-    <li class="heading_small"><a href="url_placeholder">Essays</a></li>
-    <li class="heading_small"><a href="url_placeholder">About &#38; Contact</a></li>
-   </ul>
-  </header>
+  <div class="outermenu">
+   <div class="navcontainer_table">
+    <ul id="navlist"style="list-style-type:none">
+     <li class="heading_big"><a class="heading_big"href="https://www.adamjdenton.com">Adam J Denton</a></li>
+     <li class="heading_small"><a href="url_placeholder">Essays</a></li>
+     <li class="heading_small"><a href="url_placeholder">Conversations</a></li>
+     <li class="heading_small"><a href="url_placeholder">About &#38; Contact</a></li>
+    </ul>
+   </div>
+  </div>
 
   <div id="title_page_head">
    <div class="title_container">
