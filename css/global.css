@@ -43,6 +43,7 @@ padding: 16px;
 text-decoration: none;
 }
 
+/* Page title area with border */
 #title_page_head {
 height: 500px;
 position: relative;
@@ -129,6 +130,12 @@ max-width: 350px;
 }
 
 /* full page essays and posts */
+.essay_date {
+font-family: arial;
+font-size: 200%;
+color: #4d0099;
+}
+
 .essay_body {
 max-width: 100%;
 font-family: arial;
@@ -145,6 +152,15 @@ padding-left: 28%;
 padding-right: 28%;
 }
 
+/* footer id*/
+#footer {
+border-top: 1px solid #4d0099;
+color: #555;
+text-align: center;
+padding-top: 10px;
+height: 70px;
+}
+
 /* spacing classes */
 .spacer_medium {
 display: hidden;
@@ -156,13 +172,4 @@ width: 100%
 display: hidden;
 height: 80px;
 width: 100%
-}
-
-/* footer id*/
-#footer {
-border-top: 1px solid #4d0099;
-color: #555;
-text-align: center;
-padding-top: 10px;
-height: 70px;
 }
