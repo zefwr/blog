@@ -131,8 +131,9 @@ max-width: 350px;
 
 /* full page essays and posts */
 .essay_date {
+padding-left: 30%;
 font-family: arial;
-font-size: 200%;
+font-size: 50%;
 color: #4d0099;
 }
 
