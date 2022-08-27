@@ -1,0 +1,168 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+background-color: #ffffff;
+}
+
+/* navigation bar */
+.outer_menu {
+height: 70px;
+
+}
+.navcontainer_table {
+display: table;
+margin: 0 auto;
+}
+
+ul.#navlist {
+list-style-type: none;
+text-align: center;
+overflow: hidden;
+}
+
+li {
+display: inline-block;
+}
+
+li.heading_small {
+padding-top: 7px;
+}
+
+a.heading_big {
+font-size:150%; 
+color:#4d0099;
+}
+
+li a {
+color: #555;
+text-align: center;
+font-family: arial;
+padding: 16px;
+text-decoration: none;
+}
+
+#title_page_head {
+height: 500px;
+position: relative;
+border-top: 1px solid #4d0099;
+border-bottom: 1px solid #4d0099;
+}
+
+.title_container {
+margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-110%, -50%);
+}
+
+h1.title_subhead {
+color: #4d0099;
+font-size: 300%;
+}
+
+p.title_subhead {
+color:#4d0099; 
+font-size:150%; 
+}
+
+/* title page content columns */
+.title_row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.title_topic_column a {
+color: #4d0099;
+text-decoration: none;
+}
+
+.title_name_column h2 a {
+color: #555;
+text-decoration: none;
+}
+
+.title_topic_column {
+font-family: arial;
+overflow: hidden;
+float: left;
+text-align: right;
+color: #4d0099;
+width: 37%;
+height: 300px;
+padding-right: 3%;
+padding-top: 5px;
+}
+
+.date_column {
+font-family: arial;
+overflow: hidden;
+float: left;
+text-align: center;
+color: #4d0099;
+border-left: 1px solid #4d0099;
+width: 10%;
+height: 300px;
+padding-right: 3%;
+padding-left: 1%;
+padding-top: 15px;
+}
+
+.title_name_column {
+font-family: arial;
+overflow: hidden;
+float: left;
+text-align: left;
+color: #555;
+max-width: 500px;
+width: 53%;
+height: 300px;
+padding-left: 5%;
+padding-top: 5px;
+}
+
+p.essay_subhead {
+max-width: 350px;
+}
+
+/* full page essays and posts */
+.essay_body {
+max-width: 100%;
+font-family: arial;
+color: #555;
+padding-left: 28%;
+padding-right: 28%;
+}
+
+.essay_sign {
+max-width: 100%;
+font-family: arial;
+color: #555;
+padding-left: 28%;
+padding-right: 28%;
+}
+
+/* spacing classes */
+.spacer_medium {
+display: hidden;
+height: 150px;
+width: 100%
+}
+
+.spacer_small {
+display: hidden;
+height: 80px;
+width: 100%
+}
+
+/* footer id*/
+#footer {
+border-top: 1px solid #4d0099;
+color: #555;
+text-align: center;
+padding-top: 10px;
+height: 70px;
+}
