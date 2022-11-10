@@ -45,7 +45,7 @@ text-decoration: none;
 
 /* Page title area with border */
 #title_page_head {
-height: 500px;
+height: 600px;
 position: relative;
 border-top: 1px solid #4d0099;
 border-bottom: 1px solid #4d0099;
@@ -171,6 +171,6 @@ width: 100%
 
 .spacer_small {
 display: hidden;
-height: 80px;
+height: 90px;
 width: 100%
 }
